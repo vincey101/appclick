@@ -1,0 +1,53 @@
+.sidebar {
+    margin-top: 1px;
+    /* margin-left: 1px; */
+    width: 16vw;
+    /* height: 47.8vw; */
+    height: 100vh;
+    background-color: teal;
+    border-radius: 1vw;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textfield {
+    margin: 5vw 2vw 2vw 2vw;
+}
+
+.textfield,
+.colorfield {
+    width: 12vw;
+    height: 3vw;
+    border: none;
+    border-radius: 1vw;
+    font-size: 1vw;
+
+}
+
+
+.ball {
+    cursor: pointer;
+    position: absolute;
+    right: 50%;
+    top: 20%;
+}
+
+.text {
+    color: white;
+    font-size: 1vw;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.color-picker {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

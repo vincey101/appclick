@@ -1,0 +1,34 @@
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.username,
+.password {
+    width: 12vw;
+    height: 2vw;
+    border-radius: 7px
+}
+
+.sub-btn {
+    background-color: teal;
+    height: 1.8vw;
+    color: white;
+    border: none;
+    width: 5vw;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1vw;
+
+}
