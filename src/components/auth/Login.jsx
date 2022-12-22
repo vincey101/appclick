@@ -11,13 +11,14 @@ function Login() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // setUser(user);
-        {
-            user === "admin" && password === "admin" ?
-                navigate("../home", { replace: true })
-                :
-                alert("Contact developer for login details")
+
+        if (user === "admin" && password === "admin") {
+            navigate("../home", { replace: true })
+        } else {
+            alert("Contact developer for login details")
+
         }
+        // setUser(user);
 
     }
 
