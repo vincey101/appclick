@@ -52,8 +52,7 @@ export default function Editor() {
                             borderRadius: "7px",
                             border: "none",
                             outline: "white",
-
-
+                            padding: "5px",
 
                         }}
                     />
@@ -99,7 +98,7 @@ export default function Editor() {
                     position={null}
                     grid={[25, 25]}
                     scale={1}
-                    // bounds={{ left: 0, top: 0, right: 0, bottom: 0 }}
+                    bounds={{ left: 350, top: -80, right: 1100, bottom: 330 }}
                     // bounds={{ left: 350, top: 0, right: 950, bottom: 450 }}
                     onStart={handleStart}
                     onDrag={handleDrag}
