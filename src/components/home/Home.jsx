@@ -10,7 +10,7 @@ function Home() {
             alignItems: 'center',
             justifyContent: 'center',
             height: '100vh',
-            // width: '100vw',
+            // width: '100%',
             textDecoration: 'none',
         }}>
             <button type="submit"

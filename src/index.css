@@ -13,27 +13,37 @@
   gap: 1vw;
 }
 
-.form-control {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.6vw;
+
+.or {
+  margin-left: 120px;
 }
 
 .form-controls {
   width: 16vw;
   /* height: 2vw; */
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
   /* display: inline-block; */
   display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 5px;
   padding: 6px 12px;
   border-radius: 10px;
 }
 
+.tube {
+  width: 260px;
+}
+
 .url-controls {
   display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
   align-items: center;
+  justify-content: center;
   border: 1px solid grey;
+  /* border-width: 40px; */
   padding: 6px 12px;
   border-radius: 10px;
 
@@ -45,14 +55,16 @@
   display: flex;
   gap: 5px;
   border: 1px solid grey;
-  display: inline-block;
+  /* display: inline-block; */
   padding: 6px 12px;
   border-radius: 10px;
 }
 
 .btn {
-  width: 4.32vw;
-  height: 1.8vw;
+  width: 70px;
+  /* width: 4.32vw; */
+  height: 16px;
+  /* height: 1.8vw; */
   color: white;
   background-color: green;
   border: none;

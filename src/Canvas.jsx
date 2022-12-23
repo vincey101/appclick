@@ -23,14 +23,14 @@ function Canvas() {
   return (
     <div className='wrapper'>
       <form className='form-group form' action="">
-        <div className='form-control'>
+        <div className='form-controls'>
           <div className='url-controls'>
-            <input type="text" placeholder='Enter youtube URL'
+            <input className='tube' type="text" placeholder='Enter youtube URL'
               onChange={(e) => setYoutubeVideo(e.target.value)}
             />
             <button type='submit' onClick={handleSubmit} className='btn'> Upload</button>
           </div>
-          <h3>OR</h3>
+          <h3 className='or'>OR</h3>
           <div className='file-controls'>
             <input type="file" placeholder='select file from folder'
               // onChange={(e) => setVideoFilePath(e.target.files[0])}
