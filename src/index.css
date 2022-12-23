@@ -33,7 +33,7 @@
 }
 
 .tube {
-  width: 260px;
+  width: 258px;
 }
 
 .url-controls {
@@ -55,7 +55,6 @@
   display: flex;
   gap: 5px;
   border: 1px solid grey;
-  /* display: inline-block; */
   padding: 6px 12px;
   border-radius: 10px;
 }
@@ -81,17 +80,10 @@
   align-items: flex-start;
 } */
 
-/* .form {
-  display: flex;
-
-} */
-
-/* .file-controls {
-  border-color: red;
-} */
 
 .wrapper .youtube-box {
-  width: 50%;
+  width: 50vw;
+  /* width: 70%; */
   height: 350px;
   background-color: #e4e4e4;
 }
