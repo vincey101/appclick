@@ -16,19 +16,20 @@
 
 .username,
 .password {
-    width: 12vw;
-    height: 2vw;
-    border-radius: 7px
+    width: 150px;
+    height: 30px;
+    border-radius: 7px;
+    padding: 3px
 }
 
 .sub-btn {
     background-color: teal;
-    height: 1.8vw;
+    height: 25px;
     color: white;
     border: none;
-    width: 5vw;
+    width: 60px;
     border-radius: 6px;
     cursor: pointer;
-    font-size: 1vw;
+    /* font-size: 1vw; */
 
 }
